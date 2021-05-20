@@ -1,0 +1,35 @@
+{
+    "name": "Kill la Kill: Lifefiber Attack",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "color": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.0",
+        "storyboard": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.10",
+        "tag": "v1.2.10",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/96279205a73799cd057b50beda9ca58593067e18",
+        "target": "1.4.43",
+        "pxt": "6.2.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
